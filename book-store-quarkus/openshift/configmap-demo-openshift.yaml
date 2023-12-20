@@ -1,0 +1,28 @@
+﻿kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: demo-openshift
+  namespace: xtecuan
+  uid: 6b50a055-c188-4e25-a6c9-5ee683c4cb3c
+  resourceVersion: '42744'
+  creationTimestamp: '2023-12-20T22:58:00Z'
+  managedFields:
+    - manager: Mozilla
+      operation: Update
+      apiVersion: v1
+      time: '2023-12-20T23:03:41Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:data':
+          .: {}
+          'f:POSTGRESQL_DATABASE': {}
+          'f:POSTGRESQL_PASSWORD': {}
+          'f:POSTGRESQL_SERVICE_HOST': {}
+          'f:POSTGRESQL_USER': {}
+        'f:immutable': {}
+immutable: false
+data:
+  POSTGRESQL_DATABASE: sampledb
+  POSTGRESQL_PASSWORD: H44LEJqhKog0P8Eu
+  POSTGRESQL_SERVICE_HOST: postgresql.xtecuan.svc.cluster.local
+  POSTGRESQL_USER: user0ID
